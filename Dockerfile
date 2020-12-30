@@ -3,7 +3,6 @@ ENV LIGHTTPD_VERSION=1.4.55-r1
 
 RUN apk add --update --no-cache \
 	lighttpd=${LIGHTTPD_VERSION} \
-	lighttpd-mod_auth \
 	bash \
 	nano \
 	supervisor \
