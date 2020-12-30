@@ -3,8 +3,6 @@ ENV LIGHTTPD_VERSION=1.4.55-r1
 
 RUN apk add --update --no-cache \
 	lighttpd=${LIGHTTPD_VERSION} \
-	bash \
-	nano \
 	supervisor \
   && rm -rf /var/cache/apk/*
   
