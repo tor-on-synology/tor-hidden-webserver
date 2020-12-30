@@ -1,5 +1,3 @@
-# Dockerfile for lighttpd
-
 FROM alpine:latest
 
 ENV LIGHTTPD_VERSION=1.4.55-r1
