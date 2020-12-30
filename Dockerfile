@@ -18,6 +18,7 @@ COPY etc/lighttpd/* /etc/lighttpd/
 COPY torrc /etc/tor/torrc
 COPY supervisord.conf /etc/supervisord.conf
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY index.html /var/www/index.html
 
 VOLUME /var/www/
 
