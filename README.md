@@ -1,6 +1,8 @@
 # tor-hidden-webserver
 An all-in-one docker container to create a tor hidden webserver
 
+![Docker Pulls](https://img.shields.io/docker/pulls/toronsynology/tor-hidden-webserver?style=for-the-badge)
+
 ## First test
 
 1. Install
