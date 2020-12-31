@@ -61,7 +61,15 @@ On the "sh" black command area, enter the command ```more /var/lib/tor/hidden_se
 
 Open the Tor Browser and open the .onion address and you should see the test page "It really works !".
 
+
+
 # Serving your own website
+
+...
+
+# Preserving your .onion address
+
+...
 
 
 
