@@ -12,6 +12,7 @@ An all-in-one docker container to create a tor hidden webserver
 2. "docker ps" and get the container ID
 
 ```$ docker ps -aqf "name=tor-hidden-webserver"```
+
 ```f882e62ca443```
 
 
