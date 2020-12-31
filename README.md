@@ -41,5 +41,14 @@ Open the Tor Browser and open the .onion address and you should see the test pag
 
 ## First test using Synology Docker interface
 
+In the Synology NAS admin interface, launch Docker package
+In the registry tab, search for the image (search for "toronsynology") and double click to download
+When the download is finished, in the image tab, select the tor-client image and launch to create the container.
+Launch the container without any configuration
+In the container panel, double click the container to open the container window and choose the terminal panel
+Click on "Create" to launch a command and launch the "sh" command in the window
+On the "sh" black command area, enter the command ```more /var/lib/tor/hidden_service/hostname``` to read the .onion adress of your hidden webserver
+Open the Tor Browser and open the .onion address and you should see the test page "It really works !".
+
 
 
