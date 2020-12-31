@@ -67,7 +67,9 @@ Open the Tor Browser and open the .onion address and you should see the test pag
 
 # Serving your own website
 
-writing in progress ...
+```$ docker run --name tor-hidden-webserver -d -v <home-directory>:/var/www/:ro toronsynology/tor-hidden-webserver```
+
+```$ docker run --name tor-hidden-webserver -d -v /volume1/docker/tor-hidden-webserver/www/:/var/www/:ro toronsynology/tor-hidden-webserver```
 
 # Preserving your .onion address
 
@@ -77,7 +79,7 @@ writing in progress ...
 
 ```$ docker run --name tor-hidden-webserver -d -v <home-directory>:/var/www/:ro -v <lib-directory>:/var/lib/ toronsynology/tor-hidden-webserver```
 
-```$ docker run --name tor-hidden-webserver -d -v /volume1/docker/tor-hidden-webserver/www/:/var/www/:ro -v /volume1/docker/tor-hidden-webserver/lib:/var/lib/ toronsynology/tor-hidden-webserver```$
+```$ docker run --name tor-hidden-webserver -d -v /volume1/docker/tor-hidden-webserver/www/:/var/www/:ro -v /volume1/docker/tor-hidden-webserver/lib:/var/lib/ toronsynology/tor-hidden-webserver```
 
 # Security
 
