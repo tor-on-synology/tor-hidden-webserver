@@ -3,13 +3,13 @@ An all-in-one docker container to create a tor hidden webserver
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/toronsynology/tor-hidden-webserver?style=for-the-badge) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/toronsynology/tor-hidden-webserver/latest?style=for-the-badge) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/toronsynology/tor-hidden-webserver?style=for-the-badge)
 
-## What do this container ?
+# What do this container ?
 
 This container starts a webserver (lighttpd) and create the tor hidden service. Both processes are launched in the same container using supervisor. No need to expose a port on the docker container or to configure router. The webserver is configured to only serve static html pages for security reasons. 
 
 It has been tested on Synology DSM 7 beta.
 
-## Versions
+# Versions
 
 - alpine:latest v.3.12
 - tor v.0.4.4.6-r0 
@@ -18,7 +18,7 @@ It has been tested on Synology DSM 7 beta.
 
 
 
-## First test using command line
+# First test using command line
 
 Connect to your server via ssh and get root privileges. (sudo -i on Synology)
 
@@ -43,7 +43,7 @@ Open the Tor Browser and open the .onion address and you should see the test pag
 
 
 
-## First test using Synology Docker interface
+# First test using Synology Docker interface
 
 In the Synology NAS admin interface, launch Docker package.
 
@@ -60,6 +60,8 @@ Click on "Create" to launch a command and launch the "sh" command in the window 
 On the "sh" black command area, enter the command ```more /var/lib/tor/hidden_service/hostname``` to read the .onion adress of your hidden webserver
 
 Open the Tor Browser and open the .onion address and you should see the test page "It really works !".
+
+# Serving your own website
 
 
 
