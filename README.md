@@ -5,11 +5,16 @@ An all-in-one docker container to create a tor hidden webserver
 
 ## First test
 
-1. 
+1. Download image, create the container and launch it
 
       $ docker run --name tor-hidden-webserver --rm -d toronsynology/tor-hidden-webserver
       
 2. "docker ps" and get the container ID
+
+      $ docker ps
+CONTAINER ID        IMAGE                                       COMMAND                  CREATED             STATUS              PORTS                                            NAMES
+f882e62ca443        toronsynology/tor-hidden-webserver          "/usr/bin/supervisord"   11 minutes ago      Up 11 minutes                                                        tor-hidden-webserver
+
 3. Run "docker exec -it ID more /var/lib/tor/hidden_service/hostname" to get the onion adress of the hidden webserver like :
 vac6e33nq7x6lppj2ijcu25u3i2hobjuubb4w6zsivkx7tzhmofsa2qd.onion
 
