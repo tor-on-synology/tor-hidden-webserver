@@ -16,6 +16,8 @@ It has been tested on Synology DSM 7 beta.
 - lighttpd v.1.4.55-r1
 - supervisor v.4.2.0-r0
 
+
+
 ## First test using command line
 
 Connect to your server via ssh and get root privileges. (sudo -i on Synology)
@@ -38,6 +40,8 @@ Get the .onion address of the hidden webserver : remplace the container ID with 
 ```vac6e33nq7x6lppj2ijcu25u3i2hobjuubb4w6zsivkx7tzhmofsa2qd.onion```
 
 Open the Tor Browser and open the .onion address and you should see the test page "It really works !".
+
+
 
 ## First test using Synology Docker interface
 
