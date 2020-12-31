@@ -1,8 +1,6 @@
 ## The directory for keeping all the keys/etc
 DataDirectory /var/lib/tor
 
-User tor
-
 RunAsDaemon 0
 
 SocksPort auto
