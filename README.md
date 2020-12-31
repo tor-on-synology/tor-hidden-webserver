@@ -1,8 +1,6 @@
 # tor-hidden-webserver
 An all-in-one docker container to create a tor hidden webserver
 
-# DO NOT USE - WORK IN PROGRESS
-
 ![Docker Pulls](https://img.shields.io/docker/pulls/toronsynology/tor-hidden-webserver?style=for-the-badge) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/toronsynology/tor-hidden-webserver/latest?style=for-the-badge) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/toronsynology/tor-hidden-webserver?style=for-the-badge) ![Docker Stars](https://img.shields.io/docker/stars/toronsynology/tor-hidden-webserver?style=for-the-badge)
 
 Ask questions using the issues page : https://github.com/tor-on-synology/tor-hidden-webserver/issues ...
@@ -76,12 +74,6 @@ Open the Tor Browser and open the .onion address and you should see the test pag
 # Preserving your .onion address
 
 writing in progress ...
-
-# All-in-one command line
-
-```$ docker run --name tor-hidden-webserver -d -v <home-directory>:/var/www/:ro -v <lib-directory>:/var/lib/ toronsynology/tor-hidden-webserver```
-
-```$ docker run --name tor-hidden-webserver -d -v /volume1/docker/tor-hidden-webserver/www/:/var/www/:ro -v /volume1/docker/tor-hidden-webserver/lib:/var/lib/ toronsynology/tor-hidden-webserver```
 
 # Security
 
