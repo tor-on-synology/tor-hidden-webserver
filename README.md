@@ -37,7 +37,7 @@ Get the .onion address of the hidden webserver : remplace the container ID with 
 
 ```vac6e33nq7x6lppj2ijcu25u3i2hobjuubb4w6zsivkx7tzhmofsa2qd.onion```
 
-Open the Tor Brwoser and open the .onion address and you should see the test page "It really works !".
+Open the Tor Browser and open the .onion address and you should see the test page "It really works !".
 
 
 
