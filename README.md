@@ -5,7 +5,7 @@ An all-in-one docker container to create a tor hidden webserver
 
 Ask questions using the issues page : https://github.com/tor-on-synology/tor-hidden-webserver/issues ...
 
-# What do this container ?
+# What does this container do ?
 
 This container starts a webserver (lighttpd) and create the tor hidden service. Both processes are launched in the same container using supervisor. No need to expose a port on the docker container or to configure router. The webserver is configured to only serve static html pages for security reasons. 
 
