@@ -6,8 +6,7 @@ An all-in-one docker container to create a tor hidden webserver
 ## First test
 
 1. Download image, create the container and launch it
-
-      $ docker run --name tor-hidden-webserver --rm -d toronsynology/tor-hidden-webserver
+```$ docker run --name tor-hidden-webserver --rm -d toronsynology/tor-hidden-webserver```
       
 2. "docker ps" and get the container ID
 
