@@ -3,7 +3,7 @@ DataDirectory /var/lib/tor
 
 User root
 
-RunAsDaemon 0
+RunAsDaemon 1
 
 SocksPort auto
 
