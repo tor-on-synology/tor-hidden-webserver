@@ -57,7 +57,7 @@ Launch the container without any configuration.
 
 In the container panel, double click the container to open the container window and choose the terminal panel.
 
-Click on "Create" to launch a command and launch the "sh" command in the window (write without " ")
+Click on "Create" to launch a command and launch the "/bin/sh" command in the window (write without " ")
 
 On the "sh" black command area, enter the command ```more /var/lib/tor/hidden_service/hostname``` to read the .onion adress of your hidden webserver
 
