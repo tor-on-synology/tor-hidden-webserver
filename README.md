@@ -24,7 +24,7 @@ Connect to your server via ssh and get root privileges. (sudo -i on Synology)
 
 Download image, create the container and launch it
 
-```$ docker run --name tor-hidden-webserver --rm -d toronsynology/tor-hidden-webserver```
+```$ docker run --name tor-hidden-webserver -d toronsynology/tor-hidden-webserver```
       
 Get the container ID :
 
