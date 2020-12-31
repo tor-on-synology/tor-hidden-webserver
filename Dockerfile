@@ -19,4 +19,6 @@ COPY index.html /var/www/index.html
 
 VOLUME /var/www/
 
+USER root
+
 CMD ["/usr/bin/supervisord"]
